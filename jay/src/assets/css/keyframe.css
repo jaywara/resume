@@ -1,0 +1,115 @@
+@keyframes animate {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    25%,
+    75% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    0% {
+        height: 0px;
+    }
+    10%,
+    80% {
+        height: 58px;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateX(50px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeIn1 {
+    0% {
+        transform: translateX(300px);
+    }
+    65%{
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeUp {
+    0% {
+        transform: translateY(100px);
+    }
+    65%{
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeL {
+    0% {
+        transform: translateX(-300px);
+    }
+    65%{
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes line-draw {
+    to {
+    stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes move1 {
+    0%{
+        transform: translate(0%,0%) scale(1.5);
+    }
+    100%{
+        transform: translate(100%,50%) scale(0.8);
+    }
+  }
+  @keyframes move2 {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+  }
+  @keyframes bg {
+    0% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(-200px);
+    }
+  }
